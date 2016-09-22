@@ -1,0 +1,96 @@
+.comments-h,#reply-title,.faq-title a{
+	cursor:pointer;
+}
+.faq-title{
+	margin-top: 0.618em;
+}
+
+#tab-faqs #comment{
+	min-height:0;
+	min-width:0;
+	height:100px;
+	width: 500px;
+	max-width: 100%;
+}
+.single-woo-faq{
+	padding:10px;
+}
+.single-woo-faq .commentmetadata{
+	display:none;
+}
+.single-woo-faq .comment-list{
+	list-style-type: none;
+}
+.single-woo-faq .comment .comment-body{
+	background:white;
+	padding:2px 10px;
+}
+.faq-result.faq-error{
+	display:inline-block;
+	margin:10px auto;
+}
+.faq-result.faq-error li{
+	list-style-type:none;
+}
+.comments-h{
+	padding:0;
+}
+.single-woo-faq.even{
+	background:#F1F1F1;
+}
+#tab-faqs .logged-in-as,#tab-faqs .form-allowed-tags{
+	display:none;
+}
+.single-woo-faq .faq-content{
+	padding: 10px;
+	display: none;
+}
+.single-woo-faq .faq-content > div{
+	margin: 20px 0;
+}
+.single-woo-faq .faq-content > div:first-of-type{
+	margin-top: 0;
+}
+.single-woo-faq.show .faq-content{
+	display: block;
+}
+.single-woo-faq.odd{
+	background:#F1ECE8;
+}
+.single-woo-faq.preview{
+	background:#C5E5E8;
+}
+.single-woo-faq.view{
+	background:#9ED1D6;
+}
+.single-woo-faq .faq-question:hover{
+	cursor: pointer;
+	color: #5F8A8E;
+}
+input.error,textarea.error{
+	background-color:pink;
+}
+input#poohbear{
+	display: none !important;
+}
+#tab-faqs input[readonly]{
+	background-color: rgb(235, 235, 228);
+}
+.single-woo-faq .comment-author.vcard{
+	float: none;
+	max-width: none;
+	padding-left: 0;
+}
+.single-woo-faq .comment-author.vcard .avatar{
+	position: static;
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+
+input[name="faq_author_name"]:not([hidden]),
+input[name="faq_author_email"]:not([hidden]){
+	display: block;
+	margin: 5px 0;
+}
